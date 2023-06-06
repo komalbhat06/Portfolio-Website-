@@ -1,0 +1,112 @@
+
+body{
+  height:100vh;
+    background-color: #0a7aca;
+}
+.wrapper{
+    width: 40%;
+    min-width: 590px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.container{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    margin-top: 1300px;
+} 
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: aqua;
+    font-weight: 500;
+}
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+ 
+    border: 2px solid #be3144;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color:#be3144;
+   
+ 
+}
+#c-bar{
+    animation: c-fill 2s forwards;
+}
+@keyframes c-fill{
+    100%{
+        width: 90%;
+    }
+}
+#cpp-bar{
+    animation: cpp-fill 2s forwards;
+}
+@keyframes cpp-fill{
+    100%{
+        width: 80%;
+    }
+}
+#python-bar{
+    animation: python-fill 2s forwards;
+}
+@keyframes python-fill {
+    100%{
+        width: 75%;
+    }
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 73%;
+    }
+} 
+
+#editing-bar{
+    animation: editing-fill 2s forwards;
+}
+@keyframes editing-fill{
+    100%{
+        width: 50%;
+    }
+} 
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 50%;
+    }
+}
+ 
+    

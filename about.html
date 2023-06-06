@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komal Bhat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Bodoni:ital,wght@1,500&family=Nunito:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:ital,wght@0,700;1,400&family=Roboto+Condensed:wght@300&family=Square+Peg&family=Water+Brush&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&family=Nunito:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:ital,wght@0,700;1,400&family=Roboto+Condensed:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Bodoni:ital,wght@1,500&family=Nunito:ital,wght@1,300&family=Oswald:wght@300&family=PT+Serif:ital,wght@0,700;1,400&family=Roboto+Condensed:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="f2.css" >
+   <style>
+      * {
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  html {
+    box-sizing: border-box;
+  
+    /* Set font size for easy rem calculations
+     * default document font size = 16px, 1rem = 16px, 100% = 16px
+     * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+    */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+    h1{
+      font-size: 70px;
+      margin-bottom:50px;
+      margin-left: 50px;
+    padding-top:90px;
+    color: #be3144;
+    font-family: 'Abril Fatface', cursive;
+    }
+    p{
+      font-size:25px;
+      margin-left:50px;
+      margin-top:50px;
+      color:aqua;
+      font-family: 'Libre Bodoni', serif;
+    }
+    body{
+      background:black;
+    }
+    img{
+      
+      padding-bottom: 1000px;
+      float:right;
+      margin-right:200px;
+      margin-bottom:450px;
+    }
+    .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 10;
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  
+  .nav-list a:hover {
+    background:rgb(226, 17, 97);
+  }
+  a {
+    text-decoration: none;
+    color: #08fdd8;
+  }
+      
+      
+      
+    
+  </style>
+</head>
+<body>
+  <h2 style="color:aqua;float:left;position:fixed;margin-bottom:5px;font-family: 'Abril Fatface', cursive;;"><a href="about.html"> Komal Bhat</a></h2>
+  <nav id="navbar" class="nav">
+  
+    <ul class="nav-list">
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      
+      <li>
+        <a href="projects.html">Projects</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  
+  
+  <h1>About Me</h1>
+  <p>I'm Front-End Developer located in Bangalore.<br><img src="pic1.png">
+  Currently, I am pursuing degree in CSE.<br>
+  I have serious passion in making websites and <br>
+  in editing videos.
+  <br>
+  <br>
+   Well organised person and Problem solver.<br>
+  Fan of outdoor activites and movies.
+  Interested in the entire <br>frontend spectrum and working on ambitious projects <br>with people.</p>
+  <body>
+    <div class="wrapper">
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="container">
+            <h2>Skills </h2>
+            <div class="skills">
+                <div class="details">
+                    <span>C</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar">
+                    <div id="c-bar"></div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="details">
+                    <span>C++</span>
+                    <span>80%</span>
+                </div>
+                <div class="bar">
+                    <div id="cpp-bar"></div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="details">
+                    <span>Python</span>
+                    <span>75%</span>
+                </div>
+                <div class="bar">
+                    <div id="python-bar"></div>
+                </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                  <span>HTML</span>
+                  <span>73%</span>
+              </div>
+              <div class="bar">
+                  <div id="html-bar"></div>
+              </div>
+          </div>
+            <div class="skills">
+                <div class="details">
+                    <span>Video Editing</span>
+                    <span>50%</span>
+                </div>
+                <div class="bar">
+                    <div id="editing-bar"></div>
+                </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                  <span>CSS</span>
+                  <span>50%</span>
+              </div>
+              <div class="bar">
+                  <div id="css-bar"></div>
+              </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
+</body>
+</html>
