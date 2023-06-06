@@ -7,3 +7,6 @@ The **About page** provides comprehensive information about the website and its 
 The **Projects page** showcases the various projects developed as part of the website's development.
 The **Contact page** is an essential section where users can find the necessary contact details to get in touch with the website's owner or administrator.
 Please let me know if there is anything else you would like to add or modify.
+
+![image](https://github.com/komalbhat06/Portfolio-Website-/assets/68904706/6210fd97-4acb-4a01-b1ec-8fc7aaee6238)
+
